@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 70px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  color: #fff;
+  background-color: #E81C62;
+}
+
+.nav-logo {
+  font-size: 34px;
+  letter-spacing: .8px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.nav-logo .fas {
+  color: #fff;
+  margin-right: 6px;
+  font-size: 26px;
+}
+
+.nav-right {
+  font-size: 18px;
+}

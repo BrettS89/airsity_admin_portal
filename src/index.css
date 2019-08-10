@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -10,4 +10,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+}
+
+.top-space{
+  margin-top: 70px;
+}
+
+.screen {
+  margin-top: 70px;
+  margin-left: 275px;
+}
+
+.ui.dimmer {
+  background: rgba(0, 0, 0, 0.6) !important;
 }

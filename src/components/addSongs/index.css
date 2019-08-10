@@ -1,0 +1,60 @@
+.add-songs-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-songs-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  padding: 40px 60px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.form-checkboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.form-checkboxes .ui.checkbox {
+  width: 77px;
+  margin: 4px 0;
+}
+
+.add-songs-form .ui.button {
+  background-color: #0093FF;
+  color: #fff;
+}
+
+.add-songs-form .ui.button:hover {
+  cursor: pointer;
+  background-color: #0093FF;
+  color: #fff;
+}
+
+.add-songs-form .ui.button:active {
+  cursor: pointer;
+  background-color: #0093FF;
+  color: #fff;
+}
+
+.songs-added-text {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.genre-warning {
+  margin-top: 40px;
+  color: #E81C62;
+  font-weight: 500;
+}
